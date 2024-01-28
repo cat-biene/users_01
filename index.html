@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <form class="addForm">
+        <div>
+            <label class="field">
+                <p>First name:</p>
+                <input name="first" type="text">
+            </label>
+            <label class="field">
+                <p>Last name:</p>
+                <input name="last" type="text">
+            </label>
+            <label class="field">
+                <p>Age:</p>
+                <select name="age">
+                    <option value="0">18 - 25</option>
+                    <option value="1">25 - 60</option>
+                    <option value="2">60 - 85</option>
+                </select>
+            </label>
+        </div>
+        <div class="img">
+            <img src="media/сварщик.jpg" alt="photo">
+        </div>
+        <button class="btn">ADD</button>
+    </form>
+    <div id="listConteiner"></div>
+    <div class="target"></div>
+    <script src="script/script.js"></script>
+</body>
+</html>
